@@ -1,6 +1,6 @@
 @import "reset.css";
 body {
-    background-color: #f6f9fc;
+    background-color: #5D5D5D;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
@@ -31,14 +31,14 @@ body {
 .controls__btns button {
     all: unset;
     cursor: pointer;
-    background-color: white;
+    background-color: #4C4C4C;
     padding: 5px 0px;
     width: 80px;
     text-align: center;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgb(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
     border: 2px solid rgba(0, 0, 0, 0.2);
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(255, 255, 255, 0.7);
     text-transform: uppercase;
     font-weight: 800;
     font-size: 12px;
@@ -53,9 +53,9 @@ body {
 }
 
 .controls__colors .controls__color {
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
+    width: 19px;
+    height: 19px;
+    border-radius: 5px;
     cursor: pointer;
     box-shadow: 0 4px 6px rgb(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
